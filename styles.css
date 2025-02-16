@@ -1,9 +1,9 @@
 :root {
-	--text: #090113;
-	--line: #E3170A;
-	--accent: #4DAA57;
-	--bg: #090113;
-	--fill: #9b88b3;
+	--text: #000000;
+	--line: #46a04d;
+	--accent: #68cf71;
+	--bg: #c0c0c0;
+	--fill: #e1eee2;
 }
 
 body { 
@@ -94,7 +94,7 @@ header {
 	font-size: 2em;
 	margin-bottom: 2rem;
 	color:var(--fill);
-	filter: drop-shadow(1px 1px 0 var(--text))
+	filter: drop-shadow(2px 2px 0 var(--text))
 			drop-shadow(-1px 1px 0 var(--text))
 			drop-shadow(0 -1px 0 var(--text))
 			drop-shadow(1px 0 var(--text));
